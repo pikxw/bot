@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_01e00337a61742af8ca5d6f2d30c710d/default/dark/3.0">
+    <link rel="icon" href="https://cdn.betterttv.net/emote/60354e667c74605395f33006/3x">
     <title>pikxbot</title>
 </head>
-
 <body>
-    <div>
+    <!-- <div>
         <img src="https://cdn.betterttv.net/emote/602e21b2ee839b1e5ec6e015/3x" alt="">
         <h1>Commands</h1>
         <h2>Default prefix: ;</h2>
-    </div>
+    </div> -->
+    <img src="https://cdn.betterttv.net/emote/6095396239b5010444d0d34a/3x">
+    <h1>Commands</h1>
     <div id="main-container">
         <table>
             <thead>
                 <tr>
                     <th>Command</th>
                     <th>Aliases</th>
+                    <th>Usage</th>
                     <th>Description</th>
                     <th>Permission</th>
                 </tr>
@@ -29,288 +30,242 @@
             <tr>
                 <td>%</td>
                 <td></td>
+                <td></td>
                 <td>Sends a random precentage between 0% and 100%</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>7tv</td>
-                <td></td>
-
-                </td>
-                <td>Searchs a 7tv emote</td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td>allowonline</td>
-                <td>allowlive</td>
-                <td>Allow commands from being used when channel is live</td>
-                <td><img class="roles" src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/2" width="25px"></td>
-            </tr>
-                <tr>
-                <td>accountage</td>
-                <td>accage</td>
-                <td>Sends your account age</td>
                 <td></td>
             </tr>
             <tr>
                 <td>bot</td>
                 <td></td>
+                <td></td>
                 <td>Sends information about the bot</td>
                 <td></td>
-
-            </tr>
-            <tr>
-                <td>bttv</td>
-                <td></td>
-                <td>Searchs a bttv emote</td>
-                <td></td>
-
             </tr>
             <tr>
                 <td>chatterino</td>
-                <td>c</td>
+                <td>chatterino2, chatterino7, c, c2, c7</td>
+                <td>&lt;version&gt; | &lt;wiki&gt;</td>
                 <td>Sends link to chatterino2/7 or wiki</td>
                 <td></td>
-
             </tr>
             <tr>
                 <td>chatters</td>
                 <td>offlineviewers, ov</td>
-                <td>Shows the number of offline viewers in the chat</td>
+                <td>&lt;channel&gt;</td>
+                <td>Sends the number of chatters in the given chat</td>
                 <td></td>
-
             </tr>
             <tr>
                 <td>clear</td>
                 <td></td>
-                <td>Clears chat</td>
-                <td><img class="roles" src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2" width="25px"></td>
-
-            </tr>
-            <tr>
-                <td>color</td>
-                <td></td>
-                <td>Chat color of the given user</td>   
-                <td></td>
+                <td>number</td>
+                <td>Clears chat once or as many times as is specified </td>
+                <td><img class="roles"
+                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"></td>
             </tr>
             <tr>
                 <td>commands</td>
                 <td>cmds</td>
-                <td>Sends the link to this page</td>
                 <td></td>
-            </tr>
-            <tr>
-                <td>dank</td>
-                <td>feelsdankman</td>
-                <td>Danks a user</td>
+                <td>Return to this website</td>
                 <td></td>
-            </tr>
-                <td>disallowonline</td>
-                <td>disallowlive</td>
-                <td>Disallow commands from being used when channel is live</td>
-                <td><img class="roles" src="https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/2" width="25px"></td>
             </tr>
             <tr>
                 <td>dungeon</td>
                 <td>hw</td>
-                <td>Gives basic information about a given user (Huwobot)</td>
+                <td>&lt;username&gt;</td>
+                <td>Sends user's huwobot stats</td>
                 <td></td>
             </tr>
             <tr>
-                <td>ffz</td>
-                <td></td>
-                <td>Searchs a ffz emote</td>
+                <td>emotesearch</td>
+                <td>esearch, 7tv, bttv, ffz</td>
+                <td>&lt;addon&gt; &lt;emote&gt;</td>
+                <td>Search for a third party emote</td>
                 <td></td>
             </tr>
             <tr>
                 <td>followage</td>
                 <td>fa</td>
-                <td>Sends the followage of an user on a channel</td>
+                <td>&lt;username&gt; | &lt;username&gt; &lt;channel&gt;</td>
+                <td>Sends the followage of an user on a channel </td>
                 <td></td>
             </tr>
             <tr>
-                <td>followers</td>
                 <td>followcount</td>
+                <td>followers, fc</td>
+                <td>&lt;channel&gt;</td>
                 <td>Sends follow count of the channel</td>
                 <td></td>
             </tr>
             <tr>
                 <td>google</td>
                 <td></td>
+                <td>&lt;query&gt;</td>
                 <td>Sends a link with your google search</td>
                 <td></td>
             </tr>
             <tr>
                 <td>help</td>
                 <td>command, cmd</td>
+                <td>&lt;command&gt;</td>
                 <td>Gives you the description of a command and its usage</td>
                 <td></td>
             </tr>
             <tr>
                 <td>leave</td>
                 <td>part</td>
+                <td></td>
                 <td>Bot leaves your chat</td>
                 <td><img class="roles"
-                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"
-                        width="25px"></td>
+                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"></td>
             </tr>
             <tr>
                 <td>massping</td>
-                <td>everyone, 🔔, :tf:</td>
+                <td>🔔, :tf:, everyone</td>
+                <td>&lt;message&gt;</td>
                 <td>Pings the entire viewer list</td>
                 <td><img class="roles"
-                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"
-                        width="25px"></td>
+                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"></td>
             </tr>
             <tr>
                 <td>math</td>
-                <td>apunerd</td>
+                <td></td>
+                <td>math problem</td>
                 <td>Does math</td>
                 <td></td>
             </tr>
             <tr>
                 <td>modcheck</td>
                 <td>mc</td>
+                <td>&lt;username&gt; | &lt;username&gt; &lt;channel&gt;</td>
                 <td>Checks if a user is mod in a channel</td>
                 <td></td>
             </tr>
             <tr>
                 <td>permit</td>
                 <td></td>
+                <td>&lt;add/detele/remove/check&gt; &lt;username&gt;</td>
                 <td>Permit a user to use commands with permissions</td>
                 <td></td>
             </tr>
             <tr>
-                <td>pfp</td>
-                <td>avatar</td>
-                <td>Sends the specified user pfp</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>ping</td>
-                <td>pang, peng, pong, pung, pyng</td>
-                <td>Pong!</td>
+                <td>pang, peng, pong, pung, pyng, bing</td>
+                <td></td>
+                <td>Pong! Sends information about the bot</td>
                 <td></td>
             </tr>
             <tr>
                 <td>pingme</td>
-                <td>me</td>
-                <td>Pings you</td>
+                <td>me, pinghim</td>
+                <td>&lt;username&gt;</td>
+                <td>Pings you in chat</td>
                 <td></td>
             </tr>
             <tr>
                 <td>pyramid</td>
                 <td></td>
+                <td>&lt;size&gt; &lt;text&gt;</td>
                 <td>Creates a pyramid in chat</td>
-                <td><img class="roles"
-                        src="https://static-cdn.jtvnw.net/badges/v1/b817aba4-fad8-49e2-b88a-7cc744dfa6ec/2"
-                        width="25px"></td>
+                <td>(Permitted)</td>
             </tr>
             <tr>
                 <td>query</td>
                 <td></td>
-                <td>Search for a query in Wolfram|Alpha</td>
+                <td>&lt;query&gt;</td>
+                <td>Search for a query in Wolfram|Alpha API</td>
                 <td></td>
             </tr>
             <tr>
-                <td>raccattack</td>
                 <td>racc</td>
-                <td>Sends a link to emotes.raccatta.cc of an user</td>
+                <td>raccattack, emotes</td>
+                <td>&lt;username&gt;</td>
+                <td>Sends link to emotes.raccatta.cc of an twitch user</td>
                 <td></td>
             </tr>
             <tr>
                 <td>randomcolor</td>
-                <td>rc</td>
-                <td>Sends a random hexadecimal color</td>
+                <td>rc, randomhex, rh</td>
                 <td></td>
-            </tr>
-            <tr>
-                <td>randomgachi</td>
-                <td>rg, gachi, gachigasm, gachibass</td>
-                <td>Sends a random gachi song, quote or copypasta</td>
+                <td>Sends a random hexadecimal color and show it with /me</td>
                 <td></td>
             </tr>
             <tr>
                 <td>reddit</td>
                 <td></td>
+                <td>subreddit</td>
                 <td>Sends a random post from given subreddit</td>
                 <td></td>
             </tr>
             <tr>
-                <td>setprefix</td>
-                <td>sp</td>
-                <td>Set prefix for channel</td>
-                <td><img class="roles"
-                        src="https://static-cdn.jtvnw.net/badges/v1/5527c58c-fb7d-422d-b71b-f309dcb85cc1/2"
-                        width="25px"></td>
-            </tr>
-            <tr>
-                <td>settwitter</td>
-                <td>st</td>
-                <td>Set your twitter account</td>
+                <td>set</td>
+                <td></td>
+                <td>twitter | prefix</td>
+                <td>Sends a random post from given subreddit</td>
                 <td></td>
             </tr>
             <tr>
                 <td>spam</td>
                 <td></td>
-                <td>Spam the given phrase</td>
-                <td><img class="roles"
-                        src="https://static-cdn.jtvnw.net/badges/v1/b817aba4-fad8-49e2-b88a-7cc744dfa6ec/2"
-                        width="25px"></td>
+                <td>&lt;size&gt; &lt;text&gt;</td>
+                <td>Spam the given phrase in chat</td>
+                <td>(Permitted)</td>
             </tr>
             <tr>
                 <td>streaminfo</td>
                 <td>si, uptime</td>
-                <td>Gives basic information about a stream</td>
+                <td>&lt;channel&gt;</td>
+                <td>Sends information about a twitch stream</td>
                 <td></td>
             </tr>
             <tr>
                 <td>subage</td>
                 <td>sa</td>
-                <td>Sends the subage of an user on a channel</td>
+                <td>&lt;username&gt; | &lt;username&gt; &lt;channel&gt;</td>
+                <td>Sends the subage of an user on a channel </td>
                 <td></td>
             </tr>
             <tr>
                 <td>thumbnail</td>
                 <td>preview</td>
+                <td>&lt;channel&gt; | &lt;channel&gt; &lt;width&gt; &lt;height&gt;</td>
                 <td>Sends the live thumbnail from a given channel</td>
                 <td></td>
             </tr>
             <tr>
                 <td>tuck</td>
                 <td></td>
+                <td>&lt;username&gt; &lt;emote&gt;</td>
                 <td>Tucks someone into bed</td>
                 <td></td>
             </tr>
             <tr>
                 <td>twitter</td>
                 <td>tweet</td>
-                <td>Latest post/retweet of a twitter account [you can use settwitter]</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>uid</td>
-                <td></td>
-                <td>Sends the id of an user</td>
+                <td>&lt;twitter account&gt; | Set one with "set twitter &lt;account&gt;"</td>
+                <td>Sends lastest tweet/retweet of your specified account or given account</td>
                 <td></td>
             </tr>
             <tr>
                 <td>user</td>
-                <td>whois, ?</td>
-                <td>Gives basic information about a given user</td>
+                <td>?, u, whois, accage, color, uid, pfp</td>
+                <td>&lt;username&gt;</td>
+                <td>Sends information about a twitch user</td>
                 <td></td>
             </tr>
             <tr>
                 <td>vipcheck</td>
                 <td>vc</td>
+                <td>&lt;username&gt; | &lt;username&gt; &lt;channel&gt;</td>
                 <td>Checks if a user is vip in a channel</td>
                 <td></td>
             </tr>
             <tr>
                 <td>yearprogress</td>
                 <td>yp</td>
-                <td>Shows year progress in percents</td>
+                <td></td>
+                <td>Shows year progress in percent </td>
                 <td></td>
             </tr>
         </table>
